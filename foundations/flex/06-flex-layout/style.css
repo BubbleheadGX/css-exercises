@@ -5,6 +5,59 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header .right-links,
+.header .left-links {
+  display: flex;
+  padding: 0 20px;
+  list-style-type: none;
+  gap: 1rem;
+}
+
+.left-links a,
+.right-links a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.content button {
+  padding: 8px 16px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+
+.footer .left-links,
+.footer .right-links {
+  display: flex;
+  padding: 0 20px;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 1rem;
 }
 
 img {
@@ -24,3 +77,5 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+
